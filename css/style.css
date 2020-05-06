@@ -21,6 +21,7 @@ h3 {
   color: grey;
   font-size: 1.5em;
 }
+
 /* Fine Componenti */
 
 /* HEADER */
@@ -72,12 +73,13 @@ nav a {
   background-image: url(../img/jumbotron-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 50px;
+  padding: 50px 0;
 }
 
 .ms_jumbotron h1 {
   color: white;
   font-size: 4.5em;
+  margin-top: 10px;
 }
 
 .ms_jumbotron .ms_subtitle {
@@ -101,8 +103,16 @@ nav a {
 }
 
 .form-control {
-  height: 46px;
+  height: 36px;
   margin-top: 5px;
+  padding: 0 12px 0 5px;
+  box-shadow: none;
+  border: 1px solid lightgrey;
+}
+
+.jumbotron button {
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
 
 .ms_btn_style {
@@ -110,6 +120,12 @@ nav a {
   color: white;
   border: 1px solid #4f90ff;
 }
+
+.ms_btn_style:hover {
+  background-color: white;
+  color: #4f90ff;
+}
+
 .ms_button_relative {
   position: relative;
   margin-bottom: 10px;
@@ -122,3 +138,10 @@ nav a {
   top: 25%;
 }
 /* FINE MAIN */
+
+/* Inizio Media Query */
+@media screen and (max-width: 991px) {
+  .ms_margin_top_30 {
+    margin-top: 30px;
+  }
+}
