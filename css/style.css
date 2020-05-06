@@ -1,3 +1,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+/* HEADER */
+.ms_logo {
+  height: 30px;
+}
