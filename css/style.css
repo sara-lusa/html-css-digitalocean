@@ -13,6 +13,10 @@ a {
 /* Fine Regole Generali */
 
 /* Componenti */
+.ms_subtitle {
+  color: grey;
+  font-size: 1.5em;
+}
 /* Fine Componenti */
 
 /* HEADER */
@@ -57,3 +61,26 @@ nav a {
   padding-right: 10px;
 }
 /* FINE HEADER */
+
+/* MAIN */
+/* Jumbotron */
+.ms_jumbotron {
+  background-image: url(../img/jumbotron-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ms_jumbotron h1 {
+  color: white;
+  font-size: 4.5em;
+}
+
+.ms_jumbotron .ms_subtitle {
+  color: lightgrey;
+}
+
+.ms_login_form {
+  background-color: white;
+  color: black;
+}
+/* FINE MAIN */
