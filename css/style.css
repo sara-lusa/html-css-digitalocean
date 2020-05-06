@@ -27,14 +27,16 @@ nav {
   z-index: 10; */
 }
 
-.ms_logo img {
-  height: 30px;
-}
-
 nav a {
   margin-left: 2px;
 }
 
+/* Logo */
+.ms_logo img {
+  height: 30px;
+}
+
+/* Menu */
 .ms_link_button {
   color: #4f90ff;
   border: 1px solid #4f90ff;
@@ -48,8 +50,10 @@ nav a {
   text-decoration: none;
 }
 
+/* Hamburger Menu */
 .ms_icon_menu {
   font-size: 20px;
   color: #4f90ff;
   padding-right: 10px;
 }
+/* FINE HEADER */
