@@ -10,6 +10,10 @@ ul {
 a {
   color: inherit;
 }
+
+h3 {
+  margin-top: 10px;
+}
 /* Fine Regole Generali */
 
 /* Componenti */
@@ -68,6 +72,7 @@ nav a {
   background-image: url(../img/jumbotron-background.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  padding: 50px;
 }
 
 .ms_jumbotron h1 {
@@ -82,5 +87,38 @@ nav a {
 .ms_login_form {
   background-color: white;
   color: black;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.ms_login_form h3:nth-child(2),
+.ms_login_form a {
+  color: #4f90ff;
+}
+
+.ms_login_form a {
+  text-decoration: underline;
+}
+
+.form-control {
+  height: 46px;
+  margin-top: 5px;
+}
+
+.ms_btn_style {
+  background-color: #4f90ff;
+  color: white;
+  border: 1px solid #4f90ff;
+}
+.ms_button_relative {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.ms_google_logo {
+  height: 20px;
+  position: absolute;
+  left: 2%;
+  top: 25%;
 }
 /* FINE MAIN */
