@@ -137,6 +137,10 @@ nav a {
   left: 2%;
   top: 25%;
 }
+
+.ms_partners img {
+  width: calc(100% / 6 - 5px)
+}
 /* FINE MAIN */
 
 /* Inizio Media Query */
