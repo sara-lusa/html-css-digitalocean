@@ -234,6 +234,14 @@ nav a {
   position: absolute;
   font-size: 50px;
 }
+
+
+.ms_features {
+  padding: 60px 0;
+}
+.ms_features h2 {
+  padding-bottom: 20px;
+}
 /* FINE MAIN */
 
 /* Inizio Media Query */
