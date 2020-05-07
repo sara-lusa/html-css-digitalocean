@@ -192,6 +192,46 @@ nav a {
   line-height: 50px;
   margin-left: 70px;
 }
+
+/* For-Developers */
+.ms_for_developers {
+  background-color: #f4f5f9;
+  padding: 50px 0;
+}
+
+.ms_relative {
+  position: relative;
+}
+
+/* .ms_scroll {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+.ms_scroll img {
+  max-width: 70%;
+}
+
+/* .ms_icons_abs {
+  position: absolute;
+} */
+
+.ms_angle_left {
+  position: absolute;
+  top: 50%;
+  left: 13%;
+  font-size: 30px;
+  color: grey;
+}
+
+.ms_angle_right {
+  position: absolute;
+  top: 50%;
+  left: 86%;
+  font-size: 30px;
+}
 /* FINE MAIN */
 
 /* Inizio Media Query */
