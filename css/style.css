@@ -242,6 +242,40 @@ nav a {
 .ms_features h2 {
   padding-bottom: 20px;
 }
+
+.ms_service {
+  background-image: linear-gradient(to top, #00219d, #002ca8, #003ab6, #0044c2);
+  color: white;
+}
+
+.ms_service h2 {
+  color: white;
+}
+
+.ms_service ul {
+  padding: 20px 0 35px 0;
+}
+
+.ms_service li {
+  padding: 10px 5px;
+  border-bottom: 1px solid black;
+}
+
+.ms_service li:last-child {
+  border-bottom: 0;
+}
+
+.ms_sigla {
+  text-transform: uppercase;
+}
+
+.ms_cities {
+  color: lightgrey;
+}
+
+.ms_test_speed {
+  color: #00b8cc;
+}
 /* FINE MAIN */
 
 /* Inizio Media Query */
