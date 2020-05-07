@@ -250,14 +250,15 @@ nav a {
 
 .ms_service h2 {
   color: white;
+  padding-top: 20px;
 }
 
 .ms_service ul {
-  padding: 20px 0 35px 0;
+  padding: 10px 0 35px 0;
 }
 
 .ms_service li {
-  padding: 10px 5px;
+  padding: 10px 0;
   border-bottom: 1px solid black;
 }
 
@@ -266,15 +267,23 @@ nav a {
 }
 
 .ms_sigla {
+  padding-left: 10px;
   text-transform: uppercase;
+  width: 20%;
+  display: inline-block;
 }
 
 .ms_cities {
   color: lightgrey;
+  width: 50%;
+  display: inline-block;
 }
 
 .ms_test_speed {
   color: #00b8cc;
+  width: 25%;
+  display: inline-block;
+  text-align: right;
 }
 /* FINE MAIN */
 
