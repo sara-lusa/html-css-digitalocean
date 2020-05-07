@@ -18,7 +18,7 @@ h3 {
 
 /* Componenti */
 .ms_subtitle {
-  color: grey;
+  color: #6f7995;
   font-size: 1.5em;
   margin-bottom: 70px;
 }
@@ -29,7 +29,7 @@ h3 {
 }
 
 .ms_title {
-
+  color: #031d4e;
 }
 
 section h5 {
@@ -174,7 +174,8 @@ nav a {
 }
 
 .ms_partners li {
-  width: calc(100% / 6 - 5px)
+  width: calc(100% / 2 - 10px);
+  padding: 0 20px;
 }
 
 .ms_partners li img {
@@ -199,42 +200,44 @@ nav a {
   padding: 50px 0;
 }
 
+.ms_for_developers .ms_subtitle {
+  margin-top: 25px;
+}
+
 .ms_relative {
   position: relative;
 }
 
 .ms_scroll img {
-  max-width: 55%;
+  max-width: 50%;
 }
 
 .ms_scroll p {
   padding-top: 20px;
   font-weight: 400;
   font-size: 17px;
+  padding-bottom: 50px;
 }
 
 .ms_scroll .fa-circle {
   color: #4f90ff;
+  font-size: 10px;
 }
 
 .ms_angle_left {
   position: absolute;
-  top: 50%;
-  left: 19%;
-  font-size: 30px;
+  font-size: 50px;
   color: grey;
 }
 
 .ms_angle_right {
   position: absolute;
-  top: 50%;
-  left: 80%;
-  font-size: 30px;
+  font-size: 50px;
 }
 /* FINE MAIN */
 
 /* Inizio Media Query */
-@media screen and (max-width: 991px) {
+@media screen and (min-width: 0px) {
   .ms_margin_top_30 {
     margin-top: 30px;
   }
@@ -251,5 +254,47 @@ nav a {
   .ms_offers_list {
     margin-left: 0;
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms_scroll p {
+    padding-bottom: 20px;
+  }
+
+  .ms_angle_left {
+    top: 32%;
+    left: 15%;
+  }
+
+  .ms_angle_right {
+    top: 32%;
+    left: 82%;
+  }
+
+  .ms_partners li {
+    width: calc(100% / 6 - 5px)
+  }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+  .ms_scroll p {
+    padding-bottom: 0;
+  }
+
+  .ms_scroll img {
+    max-width: 55%;
+  }
+
+  .ms_angle_left {
+    top: 42%;
+    left: 18%;
+  }
+
+  .ms_angle_right {
+    top: 42%;
+    left: 80%;
   }
 }
