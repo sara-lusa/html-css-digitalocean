@@ -203,25 +203,24 @@ nav a {
   position: relative;
 }
 
-/* .ms_scroll {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-} */
-
 .ms_scroll img {
-  max-width: 70%;
+  max-width: 55%;
 }
 
-/* .ms_icons_abs {
-  position: absolute;
-} */
+.ms_scroll p {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+.ms_scroll .fa-circle {
+  color: #4f90ff;
+}
 
 .ms_angle_left {
   position: absolute;
   top: 50%;
-  left: 13%;
+  left: 19%;
   font-size: 30px;
   color: grey;
 }
@@ -229,7 +228,7 @@ nav a {
 .ms_angle_right {
   position: absolute;
   top: 50%;
-  left: 86%;
+  left: 80%;
   font-size: 30px;
 }
 /* FINE MAIN */
