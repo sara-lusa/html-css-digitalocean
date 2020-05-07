@@ -20,8 +20,17 @@ h3 {
 .ms_subtitle {
   color: grey;
   font-size: 1.5em;
+  margin-bottom: 70px;
 }
 
+.ms_link_blue {
+  color: #4f90ff;
+  font-size: 17px;
+}
+
+.ms_title {
+
+}
 /* Fine Componenti */
 
 /* HEADER */
@@ -156,9 +165,31 @@ nav a {
   width: 100%;
 }
 
-.ms_partners a {
-  color: #4f90ff;
-  font-size: 17px;
+.ms_offers {
+  padding: 50px 0;
+}
+
+
+.ms_offers_list {
+  border-left: 1px solid grey;
+  padding-left: 10px;
+  line-height: 50px;
+  margin-left: 70px;
+}
+
+section h5 {
+  font-weight: bold;
+  color: black;
+  font-size: 1.2em;
+  padding-top: 17px;
+}
+
+.ms_text_small {
+  color: grey;
+}
+
+.ms_margin_top_20 {
+  margin-top: 20px;
 }
 /* FINE MAIN */
 
@@ -171,5 +202,14 @@ nav a {
   .ms_partners li {
     width: calc(100% / 2 - 10px);
     padding: 0 20px;
+  }
+
+  .ms_margin_top_10 {
+    margin-top: 10px;
+  }
+
+  .ms_offers_list {
+    margin-left: 0;
+    margin-bottom: 20px;
   }
 }
