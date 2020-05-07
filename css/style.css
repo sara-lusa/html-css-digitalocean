@@ -138,8 +138,27 @@ nav a {
   top: 25%;
 }
 
-.ms_partners img {
+.ms_partners {
+  background-color: #f4f5f9;
+  padding: 40px 0 30px 0;
+}
+
+.ms_partners h4 {
+  color: grey;
+  text-transform: uppercase;
+}
+
+.ms_partners li {
   width: calc(100% / 6 - 5px)
+}
+
+.ms_partners li img {
+  width: 100%;
+}
+
+.ms_partners a {
+  color: #4f90ff;
+  font-size: 17px;
 }
 /* FINE MAIN */
 
@@ -147,5 +166,10 @@ nav a {
 @media screen and (max-width: 991px) {
   .ms_margin_top_30 {
     margin-top: 30px;
+  }
+
+  .ms_partners li {
+    width: calc(100% / 2 - 10px);
+    padding: 0 20px;
   }
 }
