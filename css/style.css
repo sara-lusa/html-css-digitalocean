@@ -154,6 +154,10 @@ nav a:hover {
   color: #4f90ff;
   padding-right: 10px;
 }
+
+.ms_icon_menu:hover {
+  color: #0149ff;
+}
 /* FINE HEADER */
 
 /* MAIN */
@@ -395,6 +399,11 @@ nav a:hover {
   color: #4f90ff;
   margin-top: 15px;
 }
+
+.ms_btn_cta:hover {
+  color: white;
+  background-color: #4f90ff;
+}
 /* FINE MAIN */
 
 /* Inizio Media Query MAIN */
@@ -429,6 +438,10 @@ footer .ms_footer_social li i {
 
 footer .ms_footer_menu li {
   padding: 4px 0;
+}
+
+footer a:hover {
+  text-decoration: none;
 }
 /* FINE FOOTER */
 
