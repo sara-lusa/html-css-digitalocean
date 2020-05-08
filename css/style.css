@@ -17,6 +17,15 @@ h3 {
 /* Fine Regole Generali */
 
 /* Componenti */
+.ms_bg_grey {
+  background-color: #f4f5f9;
+}
+
+.ms_bg_blue {
+  background-image: linear-gradient(to top, #00219d, #002ca8, #003ab6, #0044c2);
+  color: white;
+}
+
 .ms_subtitle {
   color: #6f7995;
   font-size: 1.5em;
@@ -30,6 +39,10 @@ h3 {
 
 .ms_title {
   color: #031d4e;
+}
+
+.ms_relative {
+  position: relative;
 }
 
 section h5 {
@@ -80,13 +93,6 @@ section h5 {
 
 .ms_angle_right {
   right: 0%;
-}
-
-.ms_slider .ms_text {
-  padding-top: 20px;
-  font-weight: 400;
-  font-size: 17px;
-  padding-bottom: 50px;
 }
 
 .ms_slider .fa-circle {
@@ -217,7 +223,6 @@ nav a {
 
 /* Partners */
 .ms_partners {
-  background-color: #f4f5f9;
   padding: 40px 0 30px 0;
 }
 
@@ -235,6 +240,21 @@ nav a {
   width: 100%;
 }
 
+/* Inizio Media Query Partners */
+@media screen and (min-width: 0px) {
+  .ms_partners li {
+    width: calc(100% / 2 - 10px);
+    padding: 0 20px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ms_partners li {
+    width: calc(100% / 6 - 5px)
+  }
+}
+/* Fine Media Query Partners */
+
 /* Offers */
 .ms_offers {
   padding: 50px 0;
@@ -247,9 +267,17 @@ nav a {
   margin-left: 70px;
 }
 
+/* Inizio Media Query Offers */
+@media screen and (min-width: 0px) {
+  .ms_offers_list {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+}
+/* Fine Media Query Offers */
+
 /* For-Developers */
 .ms_for_developers {
-  background-color: #f4f5f9;
   padding: 50px 0;
 }
 
@@ -257,10 +285,28 @@ nav a {
   margin-top: 25px;
 }
 
-.ms_relative {
-  position: relative;
+.ms_slider .ms_text {
+  padding-top: 20px;
+  font-weight: 400;
+  font-size: 17px;
+  padding-bottom: 50px;
 }
 
+/* Inizio Media Query For-Developers */
+@media screen and (min-width: 992px) {
+  .ms_slider .ms_text {
+    padding-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ms_slider .ms_text {
+    padding-bottom: 0;
+  }
+}
+/* Fine Media Query For-Developers */
+
+/* Features */
 .ms_features {
   padding: 60px 0;
 }
@@ -268,11 +314,7 @@ nav a {
   padding-bottom: 20px;
 }
 
-.ms_service {
-  background-image: linear-gradient(to top, #00219d, #002ca8, #003ab6, #0044c2);
-  color: white;
-}
-
+/* Service */
 .ms_service h2 {
   color: white;
   padding-top: 20px;
@@ -291,6 +333,7 @@ nav a {
   border-bottom: 0;
 }
 
+/* Colonne/Lista */
 .ms_sigla {
   padding-left: 10px;
   text-transform: uppercase;
@@ -311,9 +354,8 @@ nav a {
   text-align: right;
 }
 
-
+/* Development */
 .ms_development {
-  background-color: #f4f5f9;
   padding: 50px 0;
 }
 
@@ -337,10 +379,8 @@ nav a {
   font-size: 15px;
 }
 
-
+/* Cta */
 .ms_cta {
-  background-image: linear-gradient(to top, #00219d, #002ca8, #003ab6, #0044c2);
-  color: white;
   padding: 60px 0;
 }
 
@@ -350,41 +390,17 @@ nav a {
 }
 /* FINE MAIN */
 
-/* Inizio Media Query */
+/* Inizio Media Query MAIN */
 @media screen and (min-width: 0px) {
   .ms_margin_top_30 {
     margin-top: 30px;
   }
 
-  .ms_partners li {
-    width: calc(100% / 2 - 10px);
-    padding: 0 20px;
-  }
-
   .ms_margin_top_10 {
     margin-top: 10px;
   }
-
-  .ms_offers_list {
-    margin-left: 0;
-    margin-bottom: 20px;
-  }
 }
+/* Fine Media Query MAIN */
 
-@media screen and (min-width: 992px) {
-  .ms_scroll p {
-    padding-bottom: 20px;
-  }
-
-  .ms_partners li {
-    width: calc(100% / 6 - 5px)
-  }
-
-}
-
-@media screen and (min-width: 1200px) {
-  .ms_scroll p {
-    padding-bottom: 0;
-  }
-
-}
+/* FOOTER */
+/* FINE FOOTER */
