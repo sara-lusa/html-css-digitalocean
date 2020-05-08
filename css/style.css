@@ -405,6 +405,30 @@ nav a {
 /* FOOTER */
 footer {
   background-color: #031d4e;
-  color: lightgrey;
+  color: #98a1b5;
+  padding: 70px 0;
+  font-size: 1.2em;
+}
+
+footer h5 {
+  color: white;
+  font-size: 1.1em;
+}
+
+footer img {
+  padding-bottom: 10px;
+  display: block;
+}
+
+footer p {
+  color: #4b5a7c;
+}
+
+footer .ms_footer_social li i {
+  font-size: 1.2em;
+}
+
+footer .ms_footer_menu li {
+  padding: 4px 0;
 }
 /* FINE FOOTER */
