@@ -112,15 +112,21 @@ nav {
   line-height: 70px;
   color: black;
   font-size: 16px;
-  /* position: fixed;
+  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
-  z-index: 10; */
+  z-index: 10;
+  background-color: white;
 }
 
 nav a {
   margin-left: 2px;
+}
+
+nav a:hover {
+  color: #4f90ff;
+  text-decoration: none;
 }
 
 /* Logo */
@@ -157,6 +163,7 @@ nav a {
   background-repeat: no-repeat;
   background-size: cover;
   padding: 50px 0;
+  margin-top: 70px;
 }
 
 .ms_jumbotron h1 {
@@ -391,15 +398,7 @@ nav a {
 /* FINE MAIN */
 
 /* Inizio Media Query MAIN */
-@media screen and (min-width: 0px) {
-  .ms_margin_top_30 {
-    margin-top: 30px;
-  }
 
-  .ms_margin_top_10 {
-    margin-top: 10px;
-  }
-}
 /* Fine Media Query MAIN */
 
 /* FOOTER */
@@ -432,3 +431,9 @@ footer .ms_footer_menu li {
   padding: 4px 0;
 }
 /* FINE FOOTER */
+
+@media screen and (min-width: 1200px) {
+  .ms_margin_top_20 {
+    margin-top: 0;
+  }
+}
