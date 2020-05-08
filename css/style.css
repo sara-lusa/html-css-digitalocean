@@ -403,4 +403,8 @@ nav a {
 /* Fine Media Query MAIN */
 
 /* FOOTER */
+footer {
+  background-color: #031d4e;
+  color: lightgrey;
+}
 /* FINE FOOTER */
